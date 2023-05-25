@@ -1,0 +1,92 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 22.11.2011 17:20:18
+
+newmtl Stove_with_Range_paint_black
+	Ns 60.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0510 0.0510 0.0510
+	Kd 0.0510 0.0510 0.0510
+	Ks 0.3510 0.3510 0.3510
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Stove_with_Range_paint_white
+	Ns 65.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.7255 0.7255 0.7255
+	Kd 0.7255 0.7255 0.7255
+	Ks 0.3510 0.3510 0.3510
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Stove_with_Range_glass
+	Ns 60.0000
+	Ni 1.5000
+	d 0.2000
+	Tr 0.8000
+	Tf 0.2000 0.2000 0.2000 
+	illum 2
+	Ka 0.7255 0.7255 0.7255
+	Kd 0.7255 0.7255 0.7255
+	Ks 0.3510 0.3510 0.3510
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Stove_with_Range_cook_panel
+	Ns 60.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.5850 0.5850 0.5850
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Stove_with_Range_cook_panel.jpg
+	map_Kd Stove_with_Range_cook_panel.jpg
+
+newmtl Stove_with_Range_panel
+	Ns 60.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.5850 0.5850 0.5850
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Stove_with_Range_panel.jpg
+	map_Kd Stove_with_Range_panel.jpg
+
+newmtl Stove_with_Range_metall
+	Ns 75.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.6588 0.6588 0.6588
+	Kd 0.6588 0.6588 0.6588
+	Ks 0.8190 0.8190 0.8190
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Stove_with_Range_logo
+	Ns 75.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.8190 0.8190 0.8190
+	Ke 0.0000 0.0000 0.0000
+	map_Ka Stove_with_Range_logo.jpg
+	map_Kd Stove_with_Range_logo.jpg
