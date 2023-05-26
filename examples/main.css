@@ -84,6 +84,13 @@ button {
 	transform: translateX(-50%);
 }
 
+@media only screen and (max-width: 600px) {
+	.button {
+		width: 100px;
+		padding: 10px 15px;
+	}
+}
+
 a {
 	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
 	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
