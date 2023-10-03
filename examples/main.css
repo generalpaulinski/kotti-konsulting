@@ -192,6 +192,17 @@ a, button, input, select {
 		bottom: 0;
 		left: 0;
 	}
+
+	#subheadline {
+		bottom: 24%;
+	}
+
+	.button {
+		cursor: pointer;
+		width: 300px;
+		text-transform: uppercase;
+	}
+
 }
 
 #overlay {
