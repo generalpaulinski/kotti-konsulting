@@ -59,8 +59,9 @@ button {
 #footer-right {
 	position: absolute;
 	bottom: 0;
+	size: 6px;
 	color: #62625F;
-	opacity: 0.4;
+	opacity: 0.2;
 	width: 100%;
 	padding: 10px;
 	box-sizing: border-box;
@@ -127,7 +128,7 @@ button {
 		padding: 10px 15px;
 	}
 	#footer-right {
-		bottom: 20px;
+		bottom: 50px;
 		text-align: left;
 	}
 }
@@ -171,9 +172,21 @@ a.button:hover {
 	right: 0;
 }
 
+#logo_kotti {
+	cursor: 'counter';
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 #insta_image {
 	width: 25px;
 	height: 25px;
+}
+
+#logo {
+	width: 150px;
+	height: 150px;
 }
 
 #impressum {
@@ -212,6 +225,12 @@ a, button, input, select {
 		max-width: 80%;
 		bottom: 0;
 		left: 0;
+	}
+
+	#logo {
+		width: 120px;
+		height: 120px;
+		margin-left: 5px;
 	}
 
 	#subheadline {
