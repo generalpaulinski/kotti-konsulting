@@ -8,11 +8,6 @@ body {
 	overscroll-behavior: none;
 }
 
-a {
-	color: #ff0;
-	text-decoration: none;
-}
-
 a:hover {
 	text-decoration: underline;
 }
@@ -44,16 +39,25 @@ button {
 	bottom: 0;
 	color: #62625F;
 	opacity: 0.4;
+	margin: 0;
 	width: 100%;
 	padding: 10px;
 	box-sizing: border-box;
 	text-align: left;
-	-moz-user-select: none;
-	-webkit-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	pointer-events: none;
 	z-index: 1; /* TODO Solve this in HTML */
+}
+
+#center {
+	text-align: center;
+	margin-top: 20%;
+	opacity: 0.6;
+}
+
+#credits {
+	text-align: center;
+	margin-top: 5%;
+	opacity: 0.2;
+	font-size: 10px;
 }
 
 #footer-right {
@@ -97,7 +101,7 @@ button {
 	position: absolute;
 	bottom: 20%;
 	right: 0;
-	color: #62625F;
+	color: #0067c4;
 	opacity: 1;
 	font-size: 15px;
 	width: 100%;
@@ -150,16 +154,16 @@ a {
 }
 
 a.button {
-	color: #62625F;
+	color: #0067c4;
 	font-size: 20px;
-	box-shadow: rgba(98,98,95, 0.6) 0 0 0 2px inset;
+	box-shadow: rgba(0,103,196,255) 0 0 0 2px inset;
 }
 
 
 a.button:hover {
-	color: white;
+	color: #dddddd;
 	text-decoration: none;
-	box-shadow: #62625F 0 0px 0px 40px inset;
+	box-shadow: #0067c4 0 0 0 40px inset;
 }
 
 #insta_link {
@@ -227,6 +231,15 @@ a, button, input, select {
 		left: 0;
 	}
 
+	#footer {
+	}
+
+	#footer-right {
+		bottom: 0;
+		right: 0;
+		text-align: right;
+	}
+
 	#logo {
 		width: 120px;
 		height: 120px;
@@ -234,7 +247,7 @@ a, button, input, select {
 	}
 
 	#subheadline {
-		bottom: 24%;
+		bottom: 20%;
 	}
 
 	.button {
@@ -262,8 +275,7 @@ a, button, input, select {
 
 	#overlay button {
 		background: transparent;
-		border: 0;
-		border: 1px solid rgb(255, 255, 255);
+		border: 1px solid rgba(0,103,196,255);
 		border-radius: 4px;
 		color: #ffffff;
 		padding: 12px 18px;
