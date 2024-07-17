@@ -43,6 +43,8 @@
 	import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 
 	let scene, camera, hlight, renderer, directionalLight, light, light2, light3, light4, controls, pigeons;
+	let x = 0;
+	let up = false;
 
 	function init() {
 		scene = new THREE.Scene();
@@ -84,8 +86,9 @@
 		let loader = new GLTFLoader();
 		loader.load('models/pigeons/scene.gltf', function(gltf){
 			console.log(gltf.scene);
-			gltf.scene.position.set(0,0,0);
-			gltf.scene.scale.set(40, 40, 40);
+			gltf.scene.rotation.y += 90
+			gltf.scene.position.set(0.5,0,-1.5);
+			gltf.scene.scale.set(35, 35, 35);
 			pigeons = gltf.scene.children[0];
 			scene.add(gltf.scene);
 			animate();
@@ -93,7 +96,11 @@
 	}
 	function animate(){
 		renderer.render(scene,camera);
-		if (pigeons) pigeons.rotation.y -= 0.01;
+		//if (pigeons) pigeons.rotation.y -= 0.015;
+		if (pigeons && x >= -0.1 && !up) {pigeons.rotation.x -= 0.001; x -= 0.001;}
+		if (x < -0.05) up = true;
+		if (pigeons && x <= 0.1 && up) {pigeons.rotation.x += 0.001; x += 0.001;}
+		if (x > 0.05) up = false;
 		requestAnimationFrame(animate);
 	}
 	function render() {
