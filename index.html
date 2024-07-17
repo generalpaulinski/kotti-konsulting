@@ -87,7 +87,7 @@
 		loader.load('models/pigeons/scene.gltf', function(gltf){
 			console.log(gltf.scene);
 			gltf.scene.rotation.y += 90
-			gltf.scene.position.set(0.5,0,-1.5);
+			gltf.scene.position.set(0.5,-0.5,-1.5);
 			gltf.scene.scale.set(35, 35, 35);
 			pigeons = gltf.scene.children[0];
 			scene.add(gltf.scene);
