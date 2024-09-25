@@ -120,6 +120,7 @@
     "directories": {}
   },
   "dependencies": {
+    "convertkit-react": "^1.5.5",
     "three": "^0.152.2"
   }
 }
