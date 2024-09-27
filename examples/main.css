@@ -34,7 +34,7 @@ button {
 	z-index: 1; /* TODO Solve this in HTML */
 }
 
-#newsletter {
+.newsletter {
 	position: absolute;
 	max-width: 500px;
 	left: 0;
