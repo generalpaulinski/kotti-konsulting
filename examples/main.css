@@ -126,6 +126,25 @@ button {
 	z-index: 1; /* TODO Solve this in HTML */
 }
 
+#subheadline2 {
+	position: absolute;
+	bottom: 11%;
+	right: 0;
+	color: #0067c4;
+	opacity: 1;
+	font-size: 15px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	pointer-events: none;
+	z-index: 1; /* TODO Solve this in HTML */
+}
+
 .button {
 	position: absolute;
 	width: 150px;
@@ -255,6 +274,10 @@ a, button, input, select {
 
 	#subheadline {
 		bottom: 25%;
+	}
+
+	#subheadline2 {
+		bottom: 9%;
 	}
 
 	.button {
